@@ -11,7 +11,7 @@ public class Person {
         return hometown;
     }
     
-    public String name() {
+    public String name(){
         return name;
     }
 
