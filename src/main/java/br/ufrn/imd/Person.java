@@ -7,11 +7,11 @@ public class Person {
 
     public Person() {}
     
-    public string hometown(){
+    public String hometown(){
         return hometown;
     }
     
-    public string name() {
+    public String name() {
         return name;
     }
 
