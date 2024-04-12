@@ -8,7 +8,13 @@ public class GuitarPlayer extends Musician{
     
     public boolean playAcousticGuitar;
     
-    public GuitarPlayer(){}
+    public GuitarPlayer(int howManyYears, boolean playEletronicGuitar, boolean playAcousticGuitar){
+        this.howManyYears = howManyYears;
+        this.playEletronicGuitar = playEletronicGuitar;
+        this.playAcousticGuitar = playAcousticGuitar;
+    }
     
-    public void playGuitar(){}
+    public void playGuitar(){
+        System.out.println("solo de hotel california")
+    }
 }
