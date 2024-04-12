@@ -6,7 +6,7 @@ public class Person {
     
     public String hometown;
 
-    public Person(String name; String hometown) {
+    public Person(String name, String hometown) {
         this.name = name;
         this.hometown = hometown;
     }
