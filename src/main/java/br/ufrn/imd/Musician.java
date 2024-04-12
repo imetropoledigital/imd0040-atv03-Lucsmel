@@ -8,7 +8,13 @@ public class Musician extends Person{
     
     public boolean canCompose;
     
-    public Musician(){}
+    public Musician(boolean playClassicalMusic, booelan canImprovise, booelan canCompose){
+        this.playClassicalMusic = playClassicalMusic;
+        this.canImprovise = canImprovise;
+        this.canCompose = canCompose;
+    }
     
-    public void play(){}
+    public void play(){
+        System.out.println("tuts tuts quero ver");
+    }
 }
