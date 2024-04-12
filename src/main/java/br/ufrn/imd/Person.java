@@ -1,9 +1,9 @@
 package br.ufrn.imd;
 
 public class Person {
-    public string name;
+    public String name;
     
-    public string hometown;
+    public String hometown;
 
     public Person() {}
     
